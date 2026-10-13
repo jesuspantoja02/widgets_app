@@ -1,0 +1,69 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.swo
+*~
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+Thumbs.db
+Desktop.ini
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code / Cursor (config local; descomenta si quieres versionar .vscode)
+.vscode/
+.cursor/
+
+# Flutter/Dart/Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication / obfuscation (release)
+app.*.symbols
+app.*.map.json
+
+# Android build outputs (detalle en android/.gitignore)
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Artefactos de distribución (por si se copian a la raíz)
+*.apk
+*.aab
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Variables de entorno y secretos (nunca subir claves)
+.env
+.env.*
+!.env.example
+**/secrets.json
+**/credentials.json
+**/service-account*.json
+
+# FVM (versionar .fvm/fvm_config.json; no el SDK descargado)
+.fvm/flutter_sdk
+
+# Versionado de Flutter (sí debe ir al repo)
+# .metadata
